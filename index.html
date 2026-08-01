@@ -280,7 +280,7 @@ e.g. 'Congratulations!!! You have been selected to claim your $1,000,000 prize. 
 // spaCy model trained in spammer.ipynb. Change API_BASE_URL if your
 // server runs somewhere other than localhost:5000.
 
-var API_BASE_URL = "http://127.0.0.1:5000";
+const API_BASE_URL = window.location.origin;;
 
 const inputText = document.getElementById('inputText');
 const charCount = document.getElementById('charCount');
