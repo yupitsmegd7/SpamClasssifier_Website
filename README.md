@@ -14,16 +14,7 @@ An end-to-end NLP-powered spam detection web application built using **spaCy**, 
 
 ## 📸 Preview
 
-> Add screenshots here after deployment.
-
-Example:
-
-```
-assets/
-├── homepage.png
-├── prediction.png
-└── mobile-view.png
-```
+<img width="1539" height="1129" alt="image" src="https://github.com/user-attachments/assets/da224e65-4568-4581-9fb8-d2a02aa9cc3b" />
 
 ---
 
