@@ -90,7 +90,7 @@ def score_text(text):
 def home():
     # Serves the Signal frontend directly, so you can just visit
     # http://localhost:5000 and skip opening the HTML file separately.
-    return send_from_directory(".", "index.html")
+    return send_from_directory(BASE_DIR, "index.html")
     
 
 
