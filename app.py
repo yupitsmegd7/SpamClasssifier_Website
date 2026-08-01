@@ -110,6 +110,16 @@ def predict():
     result = score_text(text)
     return jsonify(result)
 
+@app.get("/debug")
+def debug():
+    index_path = os.path.join(BASE_DIR, "index.html")
+
+    return jsonify({
+        "BASE_DIR": BASE_DIR,
+        "index_exists": os.path.exists(index_path),
+        "index_size": os.path.getsize(index_path) if os.path.exists(index_path) else -1,
+        "files": os.listdir(BASE_DIR)
+    })
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
