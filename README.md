@@ -105,38 +105,6 @@ SpamClasssifier_Website/
 
 ---
 
-# API Endpoints
-
-## Health Check
-
-```
-GET /health
-```
-
-Response
-
-```json
-{
-    "status": "ok"
-}
-```
-
----
-
-## Predict Spam
-
-```
-POST /predict
-```
-
-Request
-
-```json
-{
-    "text": "Congratulations! You've won ₹25,00,000."
-}
-```
-
 Example Response
 
 ```json
@@ -205,21 +173,6 @@ The trained model is stored in:
 ```
 fake_review_model/
 ```
-
----
-
-# Future Improvements
-
-* Highlight suspicious words
-* Explainable AI (XAI)
-* Prediction history
-* User feedback loop
-* Email integration
-* Batch message analysis
-* Improved confidence visualization
-* Dark mode
-* Docker support
-* CI/CD pipeline
 
 ---
 
