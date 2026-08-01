@@ -54,28 +54,6 @@ An end-to-end NLP-powered spam detection web application built using **spaCy**, 
 
 ---
 
-# Project Structure
-
-```
-SpamClasssifier_Website/
-│
-├── app.py
-├── train_model.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-│
-├── fake_review_model/
-│
-├── templates/
-│   └── index.html
-│
-└── static/
-    ├── style.css
-    ├── script.js
-    └── assets/
-```
-
 ---
 
 # How It Works
