@@ -8,9 +8,7 @@ An end-to-end NLP-powered spam detection web application built using **spaCy**, 
 
 **Application:**
 
-> **Coming Soon:** `https://YOUR-RENDER-URL.onrender.com`
-
-*(Replace the link above after deployment.)*
+> https://spam-classsifier.onrender.com/
 
 ---
 
