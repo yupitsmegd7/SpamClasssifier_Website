@@ -30,6 +30,9 @@ MODEL_PATH = os.environ.get(
 print("Model path:", MODEL_PATH)
 print("Exists:", os.path.exists(MODEL_PATH))
 
+if not os.path.exists(MODEL_PATH):
+    raise FileNotFoundError(f"Model not found at {MODEL_PATH}")
+
 nlp = spacy.load(MODEL_PATH)
 app = Flask(__name__)
 CORS(app)  # allow the HTML page (opened from anywhere) to call this API
